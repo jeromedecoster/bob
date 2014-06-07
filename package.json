@@ -4,6 +4,6 @@
   "description": "Test bob.",
   "main": "index.js",
   "bin": {
-    "bob": "./bin/bob"
+    "bob": "./bin/index.js"
   }
 }
