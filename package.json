@@ -5,5 +5,8 @@
   "main": "index.js",
   "bin": {
     "bob": "./bin/index.js"
+  },
+  "dependencies": {
+    "async-each-series": "~0.1"
   }
 }
