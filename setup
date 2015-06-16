@@ -1,1 +1,3 @@
-echo yes
+tmp=`mktemp /tmp/dots.XXXXX`
+cd $tmp
+curl -L github.com/jeromedecoster/bob/archive/master.tar.gz | tar x --strip 1
