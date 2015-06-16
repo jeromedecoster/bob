@@ -1,3 +1,3 @@
-tmp=`mktemp /tmp/dots.XXXXX`
+tmp=`mktemp -d /tmp/dots.XXXXX`
 cd $tmp
 curl -L github.com/jeromedecoster/bob/archive/master.tar.gz | tar x --strip 1
